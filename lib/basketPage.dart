@@ -1,4 +1,4 @@
-// ignore_for_file: unnecessary_set_literal
+// ignore_for_file: unnecessary_set_literal, use_key_in_widget_constructors, camel_case_types, library_private_types_in_public_api, prefer_const_constructors, avoid_unnecessary_containers, avoid_print, prefer_interpolation_to_compose_strings, unnecessary_new, sized_box_for_whitespace, sort_child_properties_last, file_names
 
 import 'package:animate_do/animate_do.dart';
 import 'package:cloud_firestore/cloud_firestore.dart';
@@ -33,7 +33,6 @@ class _basketPageState extends State<basketPage> {
 
   @override
   void initState() {
-    // TODO: implement initState
     super.initState();
     ayarYukleme();
   }

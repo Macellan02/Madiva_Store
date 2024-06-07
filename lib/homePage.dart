@@ -1,3 +1,5 @@
+// ignore_for_file: use_key_in_widget_constructors, camel_case_types, library_private_types_in_public_api, prefer_interpolation_to_compose_strings, avoid_print, prefer_const_constructors, sized_box_for_whitespace, avoid_unnecessary_containers, unnecessary_import, file_names
+
 import 'package:animated_expandable_fab/animated_expandable_fab.dart';
 import 'package:animated_expandable_fab/expandable_fab/action_button.dart';
 import 'package:cloud_firestore/cloud_firestore.dart';
@@ -8,7 +10,6 @@ import 'package:animate_do/animate_do.dart';
 import 'package:fluttertoast/fluttertoast.dart';
 import 'package:projecommerce/basketPage.dart';
 import 'package:projecommerce/categoryPage.dart';
-import 'package:flutter/material.dart';
 import 'package:projecommerce/main.dart';
 
 class homePage extends StatefulWidget {
@@ -63,7 +64,6 @@ class _homePageState extends State<homePage> {
 
   @override
   void initState() {
-    // TODO: implement initState
     super.initState();
     kelimelerYukleme();
     kisiBilgisiYukleme();

@@ -1,4 +1,5 @@
-import 'package:adaptive_theme/adaptive_theme.dart';
+// ignore_for_file: use_key_in_widget_constructors, avoid_print
+
 import 'package:flutter/material.dart';
 import 'package:firebase_auth/firebase_auth.dart';
 import 'package:firebase_core/firebase_core.dart';

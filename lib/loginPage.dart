@@ -1,3 +1,5 @@
+// ignore_for_file: use_key_in_widget_constructors, camel_case_types, unnecessary_new, avoid_print, prefer_interpolation_to_compose_strings, avoid_unnecessary_containers, prefer_const_constructors, prefer_const_literals_to_create_immutables, sized_box_for_whitespace, file_names, unnecessary_set_literal, unnecessary_null_comparison
+
 import 'package:cloud_firestore/cloud_firestore.dart';
 import 'package:firebase_auth/firebase_auth.dart';
 import 'package:flutter/material.dart';
@@ -16,7 +18,6 @@ class loginPages extends StatefulWidget {
 class loginPageState extends State<loginPages> {
   @override
   void initState() {
-    // TODO: implement initState
     super.initState();
     kelimelerYukleme();
   }

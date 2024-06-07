@@ -1,4 +1,5 @@
-import 'dart:ffi';
+// ignore_for_file: must_be_immutable, library_private_types_in_public_api, no_logic_in_create_state, prefer_is_empty, prefer_interpolation_to_compose_strings, avoid_print, prefer_const_constructors, sized_box_for_whitespace, file_names, unnecessary_set_literal
+
 
 import 'package:animate_do/animate_do.dart';
 import 'package:animated_expandable_fab/animated_expandable_fab.dart';
@@ -215,7 +216,6 @@ class _CategoryPageState extends State<CategoryPage> {
 
   @override
   void initState() {
-    // TODO: implement initState
     super.initState();
     kelimelerYukleme();
     ayarYukleme();

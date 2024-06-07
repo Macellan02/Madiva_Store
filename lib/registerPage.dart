@@ -1,9 +1,8 @@
-// ignore_for_file: unnecessary_set_literal, unnecessary_new, prefer_const_constructors, prefer_const_literals_to_create_immutables, deprecated_member_use, avoid_unnecessary_containers
+// ignore_for_file: unnecessary_set_literal, unnecessary_new, prefer_const_constructors, prefer_const_literals_to_create_immutables, deprecated_member_use, avoid_unnecessary_containers, camel_case_types, use_key_in_widget_constructors, prefer_const_constructors_in_immutables, no_logic_in_create_state, sized_box_for_whitespace, file_names
 
 import 'package:flutter/material.dart';
 import 'package:animate_do/animate_do.dart';
 import 'package:projecommerce/main.dart';
-import 'package:uuid/uuid.dart';
 import 'package:fluttertoast/fluttertoast.dart';
 import 'package:firebase_auth/firebase_auth.dart';
 import 'package:cloud_firestore/cloud_firestore.dart';
@@ -37,7 +36,6 @@ class registerPageState extends State<registerPage> {
   String sifrelerAyniDegilKelime = "";
   @override
   void initState() {
-    // TODO: implement initState
     super.initState();
    // print("SEÇİLEN DİL_>> " + seciliDil!);
     dilDegistir(seciliDil!, true);

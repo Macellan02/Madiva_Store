@@ -1,3 +1,5 @@
+// ignore_for_file: use_key_in_widget_constructors, camel_case_types, library_private_types_in_public_api, prefer_const_constructors, sort_child_properties_last, unnecessary_new, file_names
+
 import 'package:cloud_firestore/cloud_firestore.dart';
 import 'package:flutter/material.dart';
 import 'package:fluttertoast/fluttertoast.dart';
@@ -56,7 +58,6 @@ class _buyPageState extends State<buyPage> {
 
   @override
   void initState() {
-    // TODO: implement initState
     super.initState();
     ayarYukleme();
   }
